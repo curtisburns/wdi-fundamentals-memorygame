@@ -40,7 +40,7 @@ a:hover {
 }
 
 main {
-  width: 850px;
+  max-width: 850px;
   margin: 35px auto;
 }
 
@@ -62,6 +62,46 @@ p {
 
 img {
   margin: 40px 8px;
+}
+
+#notification {
+  position: absolute;
+  transform: translate(0,-18px);
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 1;
+  transition: opacity .25s ease-in-out .5s;
+}
+
+#notification.fadeOut {
+  opacity: 0;
+}
+
+#reset {
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+#reset button {
+  color: #FFFFFF;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: raleway, sans-serif;
+  font-weight: 600;
+  border-radius: 8%;
+  border: none;
+  background-color: #00A6B3;
+}
+
+#reset p, #count {
+  font-family: raleway;
+  color: #0d2c40;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 16px;
+  font-variant: small-caps;
+  margin-top: 12px;
 }
 
 footer {
