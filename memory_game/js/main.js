@@ -169,6 +169,7 @@ var resetGame = function () {
   resetButtonText('Reset');
   noOfMoves = 0;
   movesCounter.textContent = noOfMoves;
+  cardsInPlay = [];
 };
 
 var resetButton = document.getElementsByTagName('button');
