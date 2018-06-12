@@ -1,2 +1,2 @@
 # wdi-fundamentals-memorygame
-Memory game for GA unit 2 
+Memory game for GA precourse 
